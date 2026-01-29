@@ -1,0 +1,15 @@
+li{
+  margin: 5px 0;
+}
+p {
+  margin: 15px 0;
+}
+
+p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
+  font-size: var(--font-size-default);
+  line-height: 1.6;
+}
+
+td p, td .bodytext {
+  margin: 0;
+}

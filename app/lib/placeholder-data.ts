@@ -1,0 +1,43 @@
+const breads = [
+  {
+    id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
+    title: 'Pain de Seigle',
+    backingDate: '2026-01-01',
+    description: 'Un pain complet au seigle et aux graines',
+    rating: 3,
+    ingredients: [],
+    steps: [],
+    pictures: [],
+  },
+  {
+    id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
+    title: 'Pain Complet',
+    backingDate: '2026-01-04',
+    description: 'Un pain complet nature',
+    rating: 1,
+    steps: [],
+    pictures: [],
+    images: [],
+  },
+  {
+    id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
+    title: 'Pain Blanc',
+    backingDate: '2026-01-08',
+    description: 'Un pain blanc pour les enfants',
+    rating: 2,
+    steps: [],
+    pictures: [],
+    images: [],
+  },
+  {
+    id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
+    title: 'Brioche',
+    backingDate: '2026-01-11',
+    description: 'Miam',
+    rating: 4,
+    steps: [],
+    pictures: [],
+    images: [],
+  },
+]
+export { breads };
