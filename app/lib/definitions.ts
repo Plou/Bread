@@ -7,12 +7,15 @@ export type Bread = {
   ingredients?:Ingredient[] ;
   steps?:Step[];
   pictures?:Picture[];
+  picture?: string;
 };
 
 export type Ingredient = {
-  amount: number;
-  unit: string;
+  type: 'floor' | 'liquid' | 'sourdough' | 'other' | string;
+  amount?: number;
+  unit?: string;
   name: string;
+  shortName: string;
 };
 
 export type Step = {

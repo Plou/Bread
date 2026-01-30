@@ -1,0 +1,32 @@
+.step {
+  display: flex;
+  gap: 20px;
+}
+
+
+.date {
+  order: 1;
+  margin: 0;
+  color: var(--color-main);
+  font-weight: var(--font-weight-bold);
+  font-variant-numeric: tabular-nums;
+}
+
+.day {
+  color: var(--foreground);
+}
+
+.meta {
+  order: 2;
+}
+
+.title {
+  font-weight: var(--font-weight-semibold);
+  color: var(--foreground-highlight);
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  color: var(--foreground);
+}

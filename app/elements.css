@@ -13,3 +13,25 @@ p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textare
 td p, td .bodytext {
   margin: 0;
 }
+
+.relative {
+  position: relative;
+}
+
+.button-back {
+  display: flex;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 3px;
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-main);
+  background-color: hsl(from var(--background) h s calc(l + 10) / .5);
+  backdrop-filter: blur(4px);
+  border-radius: 100%;
+
+  &:hover {
+    background-color: hsl(from var(--background) h s calc(l + 20) / .5);
+  }
+}

@@ -8,21 +8,27 @@
   --white: #ffffff;
   --grey-light: #A6A6A6;
   --grey: #4C4B4B;
+  --grey-dark: grey;
   --black: #333333;
 
   --background: var(--white);
-  --foreground: var(--grey-light);
+  --foreground: var(--grey);
   --foreground-highlight: var(--black);
 
   /* Default font */
   --font-family-default: var(--font-inter), sans-serif;
   --font-family-heading: var(--font-source_serif), serif;
 
+  /* Fonts sizes */
+  --font-size-default: 1.6em;
+  --font-size-title: 3.6em;
+  --font-size-subtitle: 2.4em;
+
   /* Fonts weight */
   --font-weight-light: 300;
   --font-weight-regular: 400;
-  --font-weight-semibold: 700;
-  --font-weight-bold: 900;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 700;
 }
 
 @media (prefers-color-scheme: dark) {

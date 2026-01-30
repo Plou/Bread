@@ -1,0 +1,8 @@
+.amount {
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-bold);
+}
+.unit {
+  color: var(--color-main);
+  font-weight: var(--font-weight-bold);
+}

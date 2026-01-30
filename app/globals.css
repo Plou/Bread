@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: var(--font-family-default);
@@ -24,7 +25,6 @@ a {
   color: var(--color-main);
   text-decoration: none;
 }
-
 
 button {
   display: inline;
@@ -49,10 +49,32 @@ input, select, textarea{
   font-family: var(--font-family-default);
 }
 
+strong, optgroup {
+  font-weight: var(--font-weight-bold);
+}
 
-h1, h2, h3, h4, h5, h6 {
+p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
+  font-size: var(--font-size-default);
+  line-height: 1.6;
+}
+
+h1, h2 {
   font-family: var(--font-family-heading);
+}
+
+h1 {
+  font-size: var(--font-size-title);
   color: var(--foreground-highlight); 
+}
+
+h2 {
+  font-size: var(--font-size-subtitle);
+  color: var(--foreground-highlight); 
+}
+
+h3, h4, h5, h6 {
+  font-size: var(--font-size-default);
+  color: var(--color-main)
 }
 
 @media (prefers-color-scheme: dark) {

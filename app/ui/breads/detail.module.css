@@ -1,0 +1,74 @@
+.bread {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.thumbnail {
+  order: 1;
+  margin-bottom: 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  img {
+    width: 100%;
+    aspect-ratio: 390 / 180;
+    object-fit: cover;
+  }
+}
+
+.ingredients {
+  order: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ingredients__item {
+  margin: 0;
+}
+
+.title {
+  order: 2;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.rating {
+  order: 3;
+  margin-bottom: 25px;
+}
+
+.description {
+  order: 3;
+  margin: 0;
+}
+
+.subtitle {
+  order: 3;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.log {
+  order: 3;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.log__item {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--grey);
+}

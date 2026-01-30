@@ -1,0 +1,11 @@
+.rating {
+  line-height: 1;
+  margin: 0;
+}
+
+.on {
+  color: var(--foreground-highlight);
+}
+.off {
+  color: var(--foreground);
+}
